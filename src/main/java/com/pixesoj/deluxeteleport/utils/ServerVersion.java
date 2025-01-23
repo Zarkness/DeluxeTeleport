@@ -56,7 +56,8 @@ public enum ServerVersion {
     v1_21,
     v1_21_1,
     v1_21_2,
-    v1_21_3;
+    v1_21_3,
+    v1_21_4;
 
 
     public static boolean serverVersionGreaterEqualThan(ServerVersion version1Str, ServerVersion version2Str) {
